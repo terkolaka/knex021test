@@ -1,0 +1,26 @@
+{
+    "folders": [
+        {
+            "path": "./"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/._*": true,
+            "**/node_modules/**": true
+        },
+        "javascript.preferences.importModuleSpecifierEnding": "js",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "extensions": {
+        "recommendations": [
+            "stylelint.vscode-stylelint",
+            "esbenp.prettier-vscode",
+            "codezombiech.gitignore",
+            "IronGeek.vscode-env",
+            "EditorConfig.EditorConfig",
+            "formulahendry.auto-rename-tag",
+            "humao.rest-client"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+._*
+.DS_Store
+.idea
+.code
+node_modules
+*.local
+.env

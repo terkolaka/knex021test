@@ -1,0 +1,42 @@
+{
+    "name": "ohiot",
+    "version": "0.1.0",
+    "private": "true",
+    "type": "module",
+    "engines": {
+        "node": ">=14",
+        "npm": ">=6"
+    },
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "nodemon server/index.js"
+    },
+    "dependencies": {
+        "dirname-filename-esm": "^1.0.2",
+        "dotenv": "^8.2.0",
+        "fastify": "^3.13.0",
+        "fastify-static": "^4.0.1",
+        "knex": "^0.21.19",
+        "minimist": "^1.2.5",
+        "mysql2": "^2.2.5",
+        "pg": "^8.5.1",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "babel-eslint": "^10.1.0",
+        "core-js": "^3.9.1",
+        "eslint": "^7.21.0",
+        "eslint-config-prettier": "^6.12.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-prettier": "^3.1.4",
+        "nodemon": "^2.0.7",
+        "prettier": "^2.2.1",
+        "stylelint": "^13.11.0",
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-order": "^4.1.0",
+        "typescript": "^4.2.3"
+    }
+}
